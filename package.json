@@ -1,0 +1,10 @@
+{
+  "name": "google-workspace-mcp-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:local": "mcporter generate-cli --command \"node /data/workspace/repos/google-workspace-mcp/build/index.js\" --name alan-google-local",
+    "bench": "bash ./scripts/run-bench.sh"
+  }
+}
