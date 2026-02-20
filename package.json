@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:local": "mcporter generate-cli --command \"node /data/workspace/repos/google-workspace-mcp/build/index.js\" --name alan-google-local",
+    "generate:npm": "mcporter generate-cli --command \"npx -y @alanxchen/google-workspace-mcp@2.0.1\" --name alan-google",
     "bench": "bash ./scripts/run-bench.sh"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "mcporter": "^0.7.3"
   }
 }
